@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(93, 93, 93);
+    margin: -0%;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+main{
+    background-color: rgb(93, 93, 93);
+}
+/* diseño de barra de menu*/
+header{
+    width: 112%;
+    height: 6vh;
+    display: flex;
+    background-color: #ff0000;
+}
+
+.botonusuario{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.headertitulo{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size:x-large;  
+    text-transform: uppercase;
+    
+}
+
+.HeaderNav{
+    width: 300%;
+    height: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    font-size: 70%;
+    text-decoration: double;
+}
+
+.HeaderNav a{
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+.Busca{
+    width: 5%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+}
+.Busca:hover{
+    background-color: #ffffffbc;
+}
+
+.ayuda{
+    width: 5%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+}
+.ayuda:hover{
+    background-color: #ffffffbc;
+}
+
+.contact{
+    
+    width: 5%;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+}
+.contact:hover{
+    background-color: #ffffffbc;
+}
+
+
+.servi{
+width: 5%;
+padding: 10px 20px 10px 15px;
+text-align: center;
+border-radius: 30px 30px 30px 30px;
+}
+.servi:hover{
+    background-color: #ffffffbc;
+}
+
+/*contenido de la pagina web*/
+.TextH{
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    display: flex;
+    justify-content: left;
+}
+.TextH{
+    position: relative;
+    top: 65px;
+    left: 50px;
+}
+
+#Subtitulo {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 6%;
+    left: 20px;
+}
+
+#SubtituloE{
+    width: 100%;
+    position:relative;
+   top: 0%;
+}
+#SubtituloE{
+    width: 100%;
+    position:absolute;
+   top: 7%;
+   height: 10%;
+   display: flex;
+   justify-content: right;
+   color: white;
+   text-transform: uppercase;
+   right: 100px;
+}
+/*video*/
+.sectionOne video{
+    width: 50%;
+     position: relative;
+     display: flex;
+     justify-content: left;
+
+}
+.sectionOne video{
+    width: 50%;
+    height:45%;
+    top: 15%;
+     position: absolute;
+     left: 800px;
+     display: flex;
+     justify-content:left;
+    }
+
+/* imagen */
+.Sectiontwo{
+    width: 22%;
+    position: relative;
+}
+.Sectiontwo{
+   position: relative;
+   top: 80px;
+   left: 200px;
+}
+/* titulo listado de canciones*/
+.listado{
+    position: relative;
+    top: 50%;
+}
+.listado{
+    position: absolute;
+    top: 60%;
+    display: flex;
+    justify-content: left;
+    left: 880px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+/* listado canciones */ 
+.Musica{
+    position: relative;
+    width: 50%;
+    top: 10%;
+}
+.Musica{
+    position: absolute;
+    width: 40%;
+    top: 65%;
+    left: 60%;
+}
+/* listadode conciertos*/
+.conciertos{
+    position: relative;
+    width: 50%;
+    top: 10%;
+}
+.conciertos{
+    color: white;
+    position:absolute;
+    width: 50%;
+    top: 96%;
+    left: 25%;
+    text-transform: uppercase;
+}
+.concierts{
+    position: relative;
+    width: 50%;
+    top: 10%;
+}
+.concierts{
+    position: absolute;
+    width: 50%;
+    top:88%;
+    left:50%;
+}
+/* discografia*/
+.botonD {
+    position: relative;
+    width: 50%;
+    top: 10%;
+}
+.botonD {
+    position: absolute;
+    width: 50%;
+    top:102%;
+    left:85%;
+}
+/* ventas */
+.ventasB{
+    width: 40%;
+    position: absolute;
+    top: 100%;
+    left:5%;
+}
+.Cost{
+    position: absolute;
+    top:-128%;
+    left: 86%;
+}
+.cuant{
+    position: absolute;
+    top: -126%;
+    left:26%;
+}
+
+.barra{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
+.numb{
+    position: absolute;
+   top:63%;
+   left:71%;
+}
